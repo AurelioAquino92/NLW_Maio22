@@ -5,7 +5,7 @@ import { CloseButton } from "../CloseButton";
 import bugImageURL from '../../assets/bug.svg'
 import ideaImageURL from '../../assets/idea.svg'
 import otherImageURL from '../../assets/other.svg'
-import { FeedbackTypeStep } from "./Steps/FeedBackTypeStep";
+import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
 
