@@ -13,7 +13,7 @@ export default function App() {
     Inter_500Medium
   });
 
-  if (!true) {
+  if (!fontsLoaded) {
     return <AppLoading />;
   }
 
@@ -21,11 +21,10 @@ export default function App() {
     <View style={{
       flex: 1,
       backgroundColor: theme.colors.background
-      
     }}>
-      
+
       <Widget />
-      
+
       <StatusBar
         style="auto"
         backgroundColor="transparent"

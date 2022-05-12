@@ -29,8 +29,9 @@ export const styles = StyleSheet.create({
   },
   input:{
     height: 112,
+    width: '100%',
     padding: 12,
-    marginBottom: 8,
+    marginBottom: 18,
     borderRadius: 4,
     borderWidth: 1,
     borderColor: theme.colors.stroke,
